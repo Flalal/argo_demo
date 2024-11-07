@@ -4,6 +4,7 @@ metadata:
   labels:
     run: nginx-bis
   name: nginx-bis
+  namespace: test
 spec:
   containers:
     - image: nginx
